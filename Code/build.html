@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Build Guides</title>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="edit.css">
+    <link rel="stylesheet" type="text/css" href="banner.css">
+	<link rel="stylesheet" href="nav.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+            font-family: 'Nunito', sans-serif;
+        }
+
+        /* Clearfix (clear floats) */
+        .imgrow::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        /* text in picture */
+        .text-block {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            background-color: black;
+            color: white;
+            padding-left: 20px;
+            padding-right: 20px;
+        }    
+
+        .markdown blockquote {
+            border-style: solid;
+            border-width: 1px;
+            border-left-width: 4px;
+            border-color: #dbdbdb;
+            background-color: rgba(234, 234, 234, 0.7);
+            padding: 0.5rem 1rem;
+            margin: 0.5rem 0;
+        }
+
+        .dropbtn {
+            background-color: lightseagreen;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: lightblue;
+        }
+
+        a:link {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+	
+	 <div class="wrapper">
+        <div class="logo">
+            <img src="logo2.png" width="150" height="100" alt="">
+        </div>
+		
+			<ul class="nav-area">
+			
+			<li><a href="homepage.php">Home</a></li>
+			<li><a href="build.html">Build Guides</a></li>
+			<li><a href="feedback.html">Feedback</a></li>
+			<li><a href="aboutus.php">About us</a></li>
+			<li><a href="login.php">Log out</a></li>
+			</ul>
+		
+	</div>
+	
+
+    
+
+    <!-- CONTENT -->
+
+    <div class="markdown">
+        
+        <!-- CPU -->
+        <h2>CPU</h2>
+        <p>The CPU is responsible for processing the game's instructions and processing input from the player. Things like handling the NPCs, environment, and simulations is all done by the CPU. This is why games which have a heavier focus on physical simulations, like Kerbal Space Program, require a more powerful CPU.</p>
+        <!-- <p>Our Excellent AMD Gaming/Streaming Build is centered around the Ryzen 5 5600X. Since it is overclockable we have created a CPU cooler parametric selection of the different color options for the ARCTIC Freezer 34 eSports DUO. This is an excellent mid-range air cooler that will allow a modest overclock without overheating or becoming noisy.</p> -->
+        <p>Note: Be sure to check out our Recommended CPU Choices below!</p>
+        <!-- CPU DROPDOWN -->        
+        <div class="dropdown">
+            <button class="dropbtn">CPU Choices</button>
+            <div class="dropdown-content">
+                <a href="https://www.lazada.com.my/products/intel-core-i9-10900k-desktop-processor-10-cores-up-to-53-ghz-unlocked-lga1200-intel-400-series-chipset-125w-i1311160492-s4021088325.html?exlaz=d_1:mm_150050845_51350205_2010350205::12:12288259352!120410246831!!!pla-299902682079!c!299902682079!4021088325!135747546&gclid=Cj0KCQjwrsGCBhD1ARIsALILBYoUnZryN7CccVKKAnEjoJ1gZVbjnvvWkrG2rXE5aqN_xWfT0PLiNPUaApTaEALw_wcB" target="_blank">Intel Core i9 10900K</a>
+                <a href="https://www.google.com/aclk?sa=l&ai=DChcSEwiv_53in7XvAhUGqpYKHVPmAp4YABAFGgJ0bA&sig=AOD64_1TIBtKJD9GqjxldotqXcZlqrFliA&ctype=5&q=&ved=0ahUKEwjsnZbin7XvAhVcyzgGHRd3DkYQww8IyAU&adurl=" target="_blank">AMD Ryzen 5 5600X</a>
+                <a href="https://www.google.com/aclk?sa=L&ai=DChcSEwi9_5Tvn7XvAhUFt5YKHSyHAPUYABAEGgJ0bA&sig=AOD64_0orDcLpILM4wJ7u3oPSYotmVLM5Q&ctype=5&q=&ved=0ahUKEwi9gY7vn7XvAhVWzTgGHcx4B8gQ2CkI_AQ&adurl=" target="_blank">AMD Ryzen 9 5900X</a>
+            </div>
+        </div>
+        <!-- CPU PICTURES -->
+        <div class="imgrow">
+            <div class="column">
+                <img src="images/I9.jpg" alt="i9" style="width:100%">
+                <div class="text-block">
+                    <p>Intel Core i9 10900K</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/RYZEN5.jpg" alt="ryzen 5" style="width:100%">
+                <div class="text-block">
+                    <p>AMD Ryzen 5 5600X</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/RYZEN9.jpg" alt="ryzen 9" style="width:100%">
+                <div class="text-block">
+                    <p>AMD Ryzen 9 5900X</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- MOTHERBOARD -->
+        <h2>Motherboard</h2>
+        <p>The best gaming motherboard plays an important role in building a well-rounded gaming PC. 
+            It is the part of process which decides what CPU you use, what case it can go in, and what storage you're able to put into your machine. 
+            As such it needs to be a stable base from which you'll assemble your entire build, and reliable too. 
+            The best motherboard will really tie your PC together, and even with so little difference between them performance-wise nowadays, it's important to not get the wrong motherboard.</p>
+        <!-- MOTHERBOARD DROPDOWN -->        
+        <div class="dropdown">
+            <button class="dropbtn">Motherboard Choices</button>
+            <div class="dropdown-content">
+                <a href="https://www.lazada.com.my/products/msi-mpg-z490-gaming-carbon-wifi-atx-gaming-motherboard-lga1200-10th-gen-intel-core-series-processors-i1092576258-s3037924120.html?exlaz=d_1:mm_150050845_51350205_2010350205::12:12288259352!120410246831!!!pla-299902682079!c!299902682079!3037924120!135747546&gclid=Cj0KCQjwrsGCBhD1ARIsALILBYqjxWgTBUu_yECMgdbHicyZRcMWbGVL5fyvZH-d9xBYsDk_RG5N9t4aAlWkEALw_wcB" target="_blank">MSI MPG Z490 Gaming Carbon WiFi</a>
+                <a href="https://www.lazada.com.my/products/asus-rog-maximus-xii-extreme-intel-socket-1200-for-10th-gen-intel-i1094126714-s3045436963.html?exlaz=d_1:mm_150050845_51350205_2010350205::12:12290482491!126042162668!!!pla-325507474244!c!325507474244!3045436963!135747546&gclid=Cj0KCQjwrsGCBhD1ARIsALILBYrpl8r72bUXyMoPYvVO7bcW5D25Khyvq_OHXh7krgXCkgDsVwoPDB0aAjMvEALw_wcB" target="_blank">Asus ROG Maximus XII Extreme</a>
+                <a href="https://www.lazada.com.my/products/msi-mag-b460m-mortar-wifi-socket-1200-mainboard-mag-b460m-mortar-wifi-i1934062920-s7783508268.html?exlaz=d_1:mm_150050845_51350205_2010350205::12:12288259352!120410246831!!!pla-299902682079!c!299902682079!7783508268!118767419&gclid=Cj0KCQjwrsGCBhD1ARIsALILBYqEp6m9kqs81caJFAcHKF8VEYOnlpvYm4V16bPxYuEbA3Q2Z3CDicIaAtCmEALw_wcB" target="_blank">MSI MAG B460M Mortar Wifi</a>
+            </div>
+        </div>
+        <!-- MOTHERBOARD PICTURES -->
+        <div class="imgrow">
+            <div class="column">
+                <img src="images/msi.jpg" alt="MSI MPG" style="width:100%">
+                <div class="text-block">
+                    <p>MSI MPG Z490 Gaming Carbon WiFi</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/rog.jpeg" alt="Asus ROG" style="width:100%">
+                <div class="text-block">
+                    <p>Asus ROG Maximus XII Extreme</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/msimag.jpeg" alt="MSI MAG" style="width:100%">
+                <div class="text-block">
+                    <p>MSI MAG B460M Mortar Wifi</p>
+                </div>
+            </div>
+        </div>
+        
+        <blockquote>
+        <p>Warning! Some AMD B550 chipset motherboards may need a BIOS update prior to using Vermeer CPUs. Upgrading the BIOS may require a different CPU that is supported by older BIOS revisions.</p>
+        </blockquote>
+    
+        <p>Motherboard manufacturers are working on rolling out new versions of motherboards that will always have an updated BIOS for Ryzen 5000 compatibility out of the box. As these become more available, the guide will be updated to select for those only.</p>
+        
+        <!-- MEMORY -->
+        <h2>Memory</h2>
+        <p>The best RAM for gaming will help you get the peak performance out of your brand new system. It can also be the easiest and quickest upgrade you can perform on your rig. Anyone can do it. And, though it may not be quite as satisfying as dropping the best graphics card into your system, it's just as vital.</p>
+        <!-- MEMORY DROPDOWN -->
+        <div class="dropdown">
+            <button class="dropbtn">Memory Choices</button>
+            <div class="dropdown-content">
+                <a href="https://shopee.com.my/-TEAMGROUP-T-FORCE-XTREEM-ARGB-3200MHz-16GB-(8GB-x2)-CL16-DDR4-Gaming-Memory-RAM-KIT--i.59277182.6817807263" target="_blank">TEAM XTREEM ARGB 16GB DDR4-3600MHz C14</a>
+                <a href="https://www.lazada.com.my/products/corsair-dominator-platinum-rgb-32gb-2-x-16gb-ddr4-dram-3200mhz-c16-memory-kit-white-cmt32gx4m2c3200c16w-i1141036655-s3247452406.html?exlaz=d_1:mm_150050845_51350205_2010350205::12:12288259352!120410246831!!!pla-299902682079!c!299902682079!3247452406!135747546&gclid=Cj0KCQjwrsGCBhD1ARIsALILBYpgZIWa4f04YfCWh1hiFWWbFz64Wb4b0CJa5KD6xLnGGqO1Bpmb8DoaApGNEALw_wcB" target="_blank">Corsair Dominator Platinum RGB 32GB DDR4-3200MHz</a>
+                <a href="https://www.lazada.com.my/products/gskill-trident-z-royal-rgb-ddr4-series-16gb-2x8gb-3000-i465296013-s749376463.html?exlaz=d_1:mm_150050845_51350205_2010350205::12:12288259352!120410246831!!!pla-299902682079!c!299902682079!749376463!131042678&gclid=EAIaIQobChMItZO8o8q07wIVSHZgCh0FigQvEAQYASABEgKTrvD_BwE" target="_blank">G.Skill Trident Z Royal RGB</a>
+            </div>
+        </div>
+        <!-- MEMORY PICTURES -->
+        <div class="imgrow">
+            <div class="column">
+                <img src="images/xtreem.jpg" alt="xtreem argb" style="width:100%">
+                <div class="text-block">
+                    <p>TEAM XTREEM ARGB 16GB DDR4-3600MHz C14</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/dominator.jpg" alt="corsair dominator" style="width:100%">
+                <div class="text-block">
+                    <p>Corsair Dominator Platinum RGB 32GB DDR4-3200MHz</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/gskill.jpg" alt="gskill" style="width:100%">
+                <div class="text-block">
+                    <p>G.Skill Trident Z Royal RGB</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- STORAGE -->
+        <h2>Storage</h2>
+        <p>The best SSD for gaming is a key component for a responsive and speedy gaming PC. 
+            Shifting from a HDD to an SSD is like no other upgrade for your gaming PC. 
+            Suddenly everything is right there at your fingertips—no hanging around while data chugs around your rig like rusty steam train. 
+            So, if you're not planning to invest in one soon, you seriously need to rethink your priorities.</p>
+        <p>The WD Black SN750 was worth the wait. It nails solid-state performance on par with the best consumer Samsung EVO SSDs and severely undercuts them on price.</p>
+        <p>With prices significantly dropping, too, you can readily consider an SSD drive for even secondary or backup storage.</p>
+        <!-- SSD DROPDOWN -->
+        <div class="dropdown">
+            <button class="dropbtn">SSD Choices</button>
+            <div class="dropdown-content">
+                <a href="https://shopee.com.my/addlink-Gaming-SSD-X70-RGB-S68-S70-3D-NAND-SSD-NVMe-PCIe-Gen3x4-M.2-2280-i.21207754.5747971288" target="_blank">Addlink S70</a>
+                <a href="https://shopee.com.my/Western-Digital-WD-Black-SN750-1TB-M.2-Gaming-Laptop-PCIe-NVMe-2280-SSD-Heatsink-Option-i.22669791.6474300272" target="_blank">WD Black SN750 1TB</a>
+                <a href="https://shopee.com.my/Western-Digital-WD-Black-SN850-500GB-1TB-2TB-M.2-SSD-PCIE-Gaming-NVMe-Solid-State-Drive-Without-Heatsink-i.22669791.5463911533" target="_blank">WD Black SN850 NVMe SSD</a>
+            </div>
+        </div>
+
+        <!-- SSD PICTURES -->
+        <div class="imgrow">
+            <div class="column">
+                <img src="images/addlink.jpg" alt="addlink" style="width:100%">
+                <div class="text-block">
+                    <p>Addlink S70</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/sn750.jpg" alt="sn750" style="width:100%">
+                <div class="text-block">
+                    <p>WD Black SN750 1TB</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/sn850.jpg" alt="sn850" style="width:100%">
+                <div class="text-block">
+                    <p>WD Black SN850 NVMe SSD</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- GPU -->
+        <h2>GPU</h2>
+        <p>The GPU is the CPU of the graphics card. It is effectively an ASIC or Application Specific Integrated Circuit. Most GPUs run with no or very little cache compared to CPUs because they don’t rely on instruction set queuing. They are designed to process raw number computations and calculations (compute) in the form of floating-point operations and other forms of raw math. This means they calculate the vector angles of 3D scene from the draw calls it makes from the CPU.</p>
+        <p>There are many reasons for the graphics card shortage, from Covid-19 supply chain issues, to the looming spectre of GPU mining, but that doesn't change the fact we have as much visibility over fresh cards coming into the channel.</p>
+        <p>For our GPU, the Nvidia GeForce RTX 3080 is one of the best price for performance cards on the market. The RTX 3080 will provide a consistent 60fps on many demanding games like PUBG at Ultra at 1080p, and even 1440p for some games like Apex Legends. It'll also handle Fortnite with zero issues. For those interested in VR, this card will have no problem playing any and and all applications currently on the market.</p>
+        <!-- GPU DROPDOWN -->
+        <div class="dropdown">
+            <button class="dropbtn">GPU Choices</button>
+            <div class="dropdown-content">
+                <a href="https://shopee.com.my/NVIDIA-GeForce-RTX-3080-Founders-Edition-10GB-GDDR6X-Graphics-Card-i.404245190.9326970774" target="_blank">Nvidia GeForce RTX 3080</a>
+                <a href="https://shopee.com.my/AMD-Radeon-RX-6800XT-Sapphire-Nitro-16GB-Graphics-Card-i.404355141.5882121316" target="_blank">AMD Radeon RX 6800 XT</a>
+                <a href="https://britishminers.com/shop/gpus-video-graphics-cards/nvidia-geforce-rtx-3060-ti-8gb-gddr6-pci-express-4-0-graphics-card-steel-and-black/" target="_blank">Nvidia GeForce RTX 3060 Ti</a>
+            </div>
+        </div>
+
+        <!-- GPU PICTURES -->
+        <div class="imgrow">
+            <div class="column">
+                <img src="images/rtx2.jpeg" alt="rtx 3080" style="width:100%">
+                <div class="text-block">
+                    <p>Nvidia GeForce RTX 3080</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/amdradeon.jpg" alt="rx 6800" style="width:100%">
+                <div class="text-block">
+                    <p>AMD Radeon RX 6800 XT</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/rtx.jpg" alt="rtx 3060" style="width:100%">
+                <div class="text-block">
+                    <p>Nvidia GeForce RTX 3060 Ti</p>
+                </div>
+            </div>
+        </div>
+           
+        <!-- CASE -->
+        <h2>Case</h2>
+        <p>The best PC cases come in many shapes and sizes, they will store your all of your PC's components. Not only do you get RGB lighting and even built-in fan controllers, but most modern cases are a breeze to build into, as well. If all goes to plan, you'll be left with a gaming PC you'll be proud to call your own.</p>
+        <p>The best PC case offers a jumping-off point for your dream gaming PC build, but can also be the finishing touch that makes your machine stand out from the rest. You have a wide selection to choose from, too. And of course, you can also buy a prebuilt gaming PC if you want.</p>
+        <!-- CASE DROPDOWN -->     
+        <div class="dropdown">
+            <button class="dropbtn">Casing Choices</button>
+            <div class="dropdown-content">
+                <a href="https://shopee.com.my/Cooler-Master-COSMOS-C700P-Black-Edition-E-ATX-Gaming-Case-with-Curved-Tempered-Glass-MCC-C700P-KG5N-S00-i.42575106.7832037606" target="_blank">Cooler Master Cosmos C700P</a>
+                <a href="https://shopee.com.my/Corsair-Carbide-Series-275R-TG-Tempered-Glass-Mid-Tower-Gaming-PC-Case-White-CC-9011133-WW-i.11578329.1570159348" target="_blank">Corsair Carbide 275R</a>
+                <a href="https://shopee.com.my/-PHANTEKS-ENTHOO-EVOLV-X-TG-RGB-MID-TOWER-CASING-3-MODEL--i.59277182.1562137806" target="_blank">Phanteks Evolv X</a>
+            </div>
+        </div>
+
+        <!-- CASE PICTURES -->
+        <div class="imgrow">
+            <div class="column">
+                <img src="images/cosmos.jpg" alt="cooler master cosmos" style="width:100%">
+                <div class="text-block">
+                    <p>Cooler Master Cosmos C700P</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/corsair.jpg" alt="corsair carbide" style="width:100%">
+                <div class="text-block">
+                    <p>Corsair Carbide 275R</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/phanteks.jpg" alt="phanteks" style="width:100%">
+                <div class="text-block">
+                    <p>Phanteks Evolv X</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- PSU -->
+        <h2>PSU</h2>
+        <p>Not all power supplies are created equal, in fact, a bad pick might not just mean purchasing a new unit; a failing PSU could take out all your expensive PC gear in one fall.</p>
+        <p>Corsair's RM-series power supplies have been an enthusiast favorite for years now. The company has developed a strong reputation as one of the leaders in reliability and warranty service for PSUs. </p>
+        <!-- PSU DROPDOWN-->
+        <div class="dropdown">
+            <button class="dropbtn">PSU Choices</button>
+            <div class="dropdown-content">
+                <a href="https://shopee.com.my/CORSAIR-RMx-Series-RM1000x-RM850x-Gold-Certified-Fully-Modular-ATX-Power-Supply-PSU-(1000-W-850-W)-i.15417888.1839080236" target="_blank">Corsair RM850x</a>
+                <a href="https://shopee.com.my/Cooler-Master-MWE-BRONZE-V2-230V-80-Plus-Bronze-Certified-230V-Power-Supply-Unit-550W-650W-750W-i.88785617.3348530652" target="_blank">Cooler Master MasterWatt 750W</a>
+                <a href="https://shopee.com.my/Seasonic-Prime-Ultra-Titanium-1000tr-1000w-80-Titanium-Ful-Modular-i.264634440.7135365191" target="_blank">Seasonic Prime 1000 Titanium</a>
+            </div>
+        </div>
+
+        <!-- PSU PICTURES -->
+        <div class="imgrow">
+            <div class="column">
+                <img src="images/rm850.jpeg" alt="corsair rtx" style="width:100%">
+                <div class="text-block">
+                    <p>Corsair RM850x</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/coolermaster.jpg" alt="cooler master" style="width:100%">
+                <div class="text-block">
+                    <p>Cooler Master MasterWatt 750W</p>
+                </div>
+            </div>
+            <div class="column">
+                <img src="images/seasonic.jpeg" alt="seasonic prime" style="width:100%">
+                <div class="text-block">
+                    <p>Seasonic Prime 1000 Titanium</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>

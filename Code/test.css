@@ -1,0 +1,18 @@
+
+
+.cont {
+    text-align: justify;
+}
+
+.cont img {
+    display: inline-block;
+    width: 246px;
+	height: 246px;
+	border-radius: 50%;
+}
+
+.cont:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+}
